@@ -6,21 +6,21 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   padding: 2rem;
   text-align: center;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
   color: #ffffff;
 }
 
 p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
   color: #cccccc;
 }
 
@@ -28,7 +28,8 @@ p {
   display: inline-block;
   background: #00aaff;
   color: #fff;
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
   border-radius: 8px;
   text-decoration: none;
   transition: background 0.3s ease;
@@ -39,12 +40,12 @@ p {
 }
 
 .pdf-viewer {
-  margin-top: 2rem;
-  height: 600px;
+  margin-top: 3rem;
+  height: 90vh; /* Bigger view */
   border: 2px solid #444;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 0 10px #00000080;
+  box-shadow: 0 0 20px #00000080;
 }
 
 .pdf-viewer iframe {
